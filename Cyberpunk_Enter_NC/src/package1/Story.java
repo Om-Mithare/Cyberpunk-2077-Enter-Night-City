@@ -48,7 +48,7 @@ public class Story {
         player.currentWeaponMelee = new Melee_Knife();
         ui.meleeWeaponName.setText(player.currentWeaponMelee.name);
 
-        player.eddies = 1000;
+        player.eddies = 100;
         ui.eddiesNumber.setText("" + player.eddies);
 
     }
